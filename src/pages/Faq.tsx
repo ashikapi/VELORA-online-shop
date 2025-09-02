@@ -8,7 +8,7 @@ const Faq = () => {
     <div>
         <FaqHeader />
         <FaqDetails />
-        <AboutFooter />
+        <AboutFooter bgColor="" />
     </div>
   )
 }

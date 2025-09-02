@@ -1,4 +1,3 @@
-import React from 'react'
 import BlogHome from './blogComponents/BlogHome'
 import BlogDetails from './blogComponents/BlogDetails'
 

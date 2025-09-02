@@ -1,4 +1,3 @@
-import React from 'react'
 import { GrDeliver } from "react-icons/gr";
 import { BsFillGiftFill } from "react-icons/bs";
 import { MdOutlinePayment } from "react-icons/md";

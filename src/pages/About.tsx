@@ -18,7 +18,7 @@ const About = () => {
         <AboutMore />
         <AboutThought />
         <AboutPurpose />
-        <AboutFooter />
+        <AboutFooter bgColor="" />
     </div>
   )
 }

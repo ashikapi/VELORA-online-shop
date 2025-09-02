@@ -1,4 +1,3 @@
-import React from 'react'
 import NewArivals from './components/NewArivals'
 import AboutFooter from './components/AboutFooter'
 import HomeFooter from './homeComponents/HomeFooter'
