@@ -7,6 +7,7 @@ import Faq from "../pages/Faq";
 import ScrollToTop from "../components/ScrollToTop";
 import Shop from "../pages/Shop";
 import Blog from "../pages/Blog";
+import Careers from "../pages/Careers";
 
 const Routing = () => {
   return (
@@ -23,6 +24,7 @@ const Routing = () => {
         <Route path="shop" element={<Shop/>}/>
         <Route path="faqus" element={<Faq />}/>
         <Route path="blog" element={<Blog/>}/>
+        <Route path="career" element={<Careers/>}/>
       </Route>
     </Routes>
     </>
