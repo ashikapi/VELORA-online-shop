@@ -7,7 +7,7 @@ const Header = () => {
     <div className="fixed top-0 left-0 w-full z-50 bg-white">
         <div className="flex justify-evenly items-center p-4">
             <div>
-                <img src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/header-logo.svg" alt="" />
+                <NavLink to={'/home'}><img src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/header-logo.svg" alt="" /> </NavLink>
             </div>
             <div>
                 <ul className='flex gap-20 text-lg font-semibold text-gray-600'>

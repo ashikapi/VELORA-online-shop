@@ -20,7 +20,7 @@ const Shop = () => {
   return (
     <div className='-mt-10 pt-20'>
         <div className='flex justify-between items-center p-20'>
-            <div className='space-y-4 mt-20'>
+            <div className='space-y-4'>
                 <h1 className='text-3xl font-extrabold'>Shop</h1>
             </div>
         </div>
