@@ -8,6 +8,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import Shop from "../pages/Shop";
 import Blog from "../pages/Blog";
 import Careers from "../pages/Careers";
+import Contact from "../pages/Contact";
 
 const Routing = () => {
   return (
@@ -25,6 +26,7 @@ const Routing = () => {
         <Route path="faqus" element={<Faq />}/>
         <Route path="blog" element={<Blog/>}/>
         <Route path="career" element={<Careers/>}/>
+        <Route path="contact" element={<Contact/>}/>
       </Route>
     </Routes>
     </>

@@ -7,7 +7,7 @@ import CareersReady from './careersComponents/CareersReady'
 const Careers = () => {
   return (
     <div>
-        <CareersHome />
+        <CareersHome title  details  subDetails showSubtitle showDetails />
         <CareersGrow />
         <CareersLife />
         <CareersPerks />

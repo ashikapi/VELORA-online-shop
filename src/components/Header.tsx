@@ -17,7 +17,7 @@ const Header = () => {
                     <li><NavLink to={'/about'}>About</NavLink></li>
                     <li><NavLink to={'/career'}>Careers</NavLink></li>
                     <li><NavLink to={'/faqus'}>FAQ's</NavLink></li>
-                    <li>Contact</li>
+                    <li><NavLink to={'/contact'}>Contact</NavLink></li>
                 </ul>
             </div>
             <div className="flex justify-baseline gap-6 text-2xl"><CgProfile /> <BsFillBasketFill /></div>
