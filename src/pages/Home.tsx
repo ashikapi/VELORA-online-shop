@@ -1,7 +1,7 @@
-import NewArivals from './components/NewArivals'
-import AboutFooter from './components/AboutFooter'
-import HomeFooter from './homeComponents/HomeFooter'
-import HomeCategories from './homeComponents/HomeCategories'
+import NewArivals from '../components/homeComponents/NewArivals'
+import AboutFooter from '../components/AboutComponents/AboutFooter'
+import HomeFooter from '../components/homeComponents/HomeFooter'
+import HomeCategories from '../components/homeComponents/HomeCategories'
 
 const Home = () => {
   return (

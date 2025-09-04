@@ -1,7 +1,7 @@
 
-import CareersHome from './careersComponents/CareersHome'
-import ContactExplore from './contactComponents/ContactExplore'
-import ContactSendMessage from './contactComponents/ContactSendMessage'
+import CareersHome from '../components/careersComponents/CareersHome'
+import ContactExplore from '../components/contactComponents/ContactExplore'
+import ContactSendMessage from '../components/contactComponents/ContactSendMessage'
 
 const Contact = () => {
   return (

@@ -1,5 +1,5 @@
-import BlogHome from './blogComponents/BlogHome'
-import BlogDetails from './blogComponents/BlogDetails'
+import BlogHome from '../components/blogComponents/BlogHome'
+import BlogDetails from '../components/blogComponents/BlogDetails'
 
 const Blog = () => {
   return (

@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Layout from "../layOut/Layout";
 import Faq from "../pages/Faq";
-import ScrollToTop from "../components/ScrollToTop";
+import ScrollToTop from "../components/mainComponents/ScrollToTop";
 import Shop from "../pages/Shop";
 import Blog from "../pages/Blog";
 import Careers from "../pages/Careers";

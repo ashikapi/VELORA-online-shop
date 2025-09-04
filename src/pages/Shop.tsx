@@ -45,9 +45,9 @@ const Shop = () => {
                 </ul>
                 ))}
                 </label>
-                <label className='flex justify-baseline gap-6'>{product.colors.map((color, inx) => (
+                <label className='flex justify-baseline gap-2'>{product.colors.map((color, inx) => (
                 <ul key={inx} className=''>
-                    <li className='w-6 h-6 rounded-sm border'
+                    <li className='w-4 h-4 p-2 ml-2 rounded-sm'
                 style={{ backgroundColor: color }}></li>
                 </ul>
                 ))}

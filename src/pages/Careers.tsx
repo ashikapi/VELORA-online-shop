@@ -1,8 +1,8 @@
-import CareersHome from './careersComponents/CareersHome'
-import CareersGrow from './careersComponents/CareersGrow'
-import CareersLife from './careersComponents/CareersLife'
-import CareersPerks from './careersComponents/CareersPerks'
-import CareersReady from './careersComponents/CareersReady'
+import CareersHome from '../components/careersComponents/CareersHome'
+import CareersGrow from '../components/careersComponents/CareersGrow'
+import CareersLife from '../components/careersComponents/CareersLife'
+import CareersPerks from '../components/careersComponents/CareersPerks'
+import CareersReady from '../components/careersComponents/CareersReady'
 
 const Careers = () => {
   return (

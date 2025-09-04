@@ -1,9 +1,9 @@
 
-import AboutFooter from './components/AboutFooter'
-import AboutThought from './components/AboutThought'
-import AboutMore from './components/AboutMore'
-import AboutValora from './components/AboutValora'
-import AboutPurpose from './components/AboutPurpose'
+import AboutFooter from '../components/AboutComponents/AboutFooter'
+import AboutThought from '../components/AboutComponents/AboutThought'
+import AboutMore from '../components/AboutComponents/AboutMore'
+import AboutValora from '../components/AboutComponents/AboutValora'
+import AboutPurpose from '../components/AboutComponents/AboutPurpose'
 
 const About = () => {
   return (

@@ -1,7 +1,7 @@
 
-import FaqHeader from './faqComponents/FaqHeader'
-import AboutFooter from './components/AboutFooter'
-import FaqDetails from './faqComponents/FaqDetails'
+import FaqHeader from '../components/faqComponents/FaqHeader'
+import AboutFooter from '../components/AboutComponents/AboutFooter'
+import FaqDetails from '../components/faqComponents/FaqDetails'
 
 const Faq = () => {
   return (
