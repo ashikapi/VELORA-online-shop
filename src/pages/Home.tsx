@@ -1,7 +1,9 @@
-import NewArivals from '../components/homeComponents/NewArivals'
+import NewArivals from '../components/homeComponents/HomeNewArivals'
 import AboutFooter from '../components/AboutComponents/AboutFooter'
 import HomeFooter from '../components/homeComponents/HomeFooter'
 import HomeCategories from '../components/homeComponents/HomeCategories'
+import HomeExclusive from '../components/homeComponents/HomeExclusive'
+import HomeBestsell from '../components/homeComponents/HomeBestsell'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
         </div>
         <div><NewArivals /></div>
         <div><HomeCategories /></div>
+        <div><HomeBestsell/></div>
+        <div><HomeExclusive/></div>
         <div><AboutFooter bgColor="bg-white"></AboutFooter></div>
         <div><HomeFooter/></div>
     </div>
