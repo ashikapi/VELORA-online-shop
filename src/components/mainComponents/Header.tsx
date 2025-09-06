@@ -1,6 +1,7 @@
 import { CgProfile } from "react-icons/cg";
 import { BsFillBasketFill } from "react-icons/bs";
 import { NavLink } from "react-router";
+import CartNumber from "./CartNumber";
 
 const Header = () => {
   return (
@@ -21,6 +22,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="flex justify-baseline gap-6 text-2xl"><CgProfile /> <BsFillBasketFill /></div>
+            <div className="flex justify-baseline -mt-8 -ml-33"><CartNumber/></div>
         </div>
         <div className="p-3 flex justify-center items-center text-white bg-black text-lg"><p>Get 15% off on your first order</p></div>
     </div>
