@@ -2,6 +2,7 @@ import { CgProfile } from "react-icons/cg";
 import { BsFillBasketFill } from "react-icons/bs";
 import { NavLink } from "react-router";
 import CartNumber from "./CartNumber";
+import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
             <div>
                 <NavLink to={'/home'}><img src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/header-logo.svg" alt="" /> </NavLink>
             </div>
-            <div>
+            <div className="md:block hidden">
                 <ul className='flex gap-20 text-lg font-semibold text-gray-600'>
                     <li><NavLink to={'/home'}> Home </NavLink></li>
                     <li><NavLink to={'/shop'}> Shop </NavLink></li>
@@ -21,8 +22,9 @@ const Header = () => {
                     <li><NavLink to={'/contact'}>Contact</NavLink></li>
                 </ul>
             </div>
-            <div className="flex justify-baseline gap-6 text-2xl"><CgProfile /> <BsFillBasketFill /></div>
-            <div className="flex justify-baseline -mt-8 -ml-33"><CartNumber/></div>
+            <div className="md:flex hidden justify-baseline gap-6 text-2xl"><CgProfile /> <BsFillBasketFill /></div>
+            <div className="md:flex hidden justify-baseline -mt-8 -ml-33"><CartNumber/></div>
+            <div className="md:hidden block"><TiThMenu size={20} /></div>
         </div>
         <div className="p-3 flex justify-center items-center text-white bg-black text-lg"><p>Get 15% off on your first order</p></div>
     </div>

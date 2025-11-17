@@ -14,7 +14,7 @@ const products = [
             </div>
             <div> <button className='px-6 py-3 border rounded-3xl font-semibold  border-[rgb(239,35,60)] text-[rgb(239,35,60)] hover:bg-[rgb(239,35,60)] hover:text-white uppercase'>See What's New</button></div>
         </div>
-        <div className='grid grid-cols-3 gap-6 -mt-6 mb-20 p-20'>{products.map((product, index) => (
+        <div className='grid md:grid-cols-3 grid-cols-1 gap-6 -mt-6 mb-20 p-20'>{products.map((product, index) => (
             <div  className=''>
             <ul key={index}>
                 <li><img src={product.image} alt="img" /></li>
