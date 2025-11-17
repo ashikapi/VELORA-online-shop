@@ -14,9 +14,10 @@ const AboutFooter = ({bgColor}) => {
                 <h1 className='text-4xl font-bold mb-4'>Get 10% Off on Your First Order</h1>
                 <p className="mb-15">Plus exclusive access to product drops, style tips, and insider deals.</p>
             </div>
-            <div className='flex justify-baseline ml-80 gap-4 mt-4 mb-10'>
+            <div className='flex md:justify-center justify-start items-center gap-4 mt-4 mb-10'>
                 <label>
-                    <input className='px-28 py-3 border border-[rgb(239,35,60)] rounded-xl' type="email" placeholder='ENTER YOUR EMAIL *' />
+                    <input className='px-28 py-3 border border-[rgb(239,35,60)] rounded-xl outline-none'
+                     type="email" placeholder='ENTER YOUR EMAIL *' />
                     <p className='text-[rgb(239,35,60)] font-semibold text-left mt-1'>This Field is required.</p>
                 </label>
                 <div>
