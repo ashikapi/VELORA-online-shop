@@ -15,7 +15,7 @@ const HomeFooter = () => {
   return (
     <div className='bg-[rgb(254,239,241)] flex justify-center items-center'>
         <div>
-            <div className='grid md:grid-cols-4 grid-cols-2 pt-20 pb-20'>
+            <div className='grid md:grid-cols-4 grid-cols-1 pt-20 pb-20'>
                 {details.map((detail, index)=>(
                     <ul className='w-96 p-4 space-y-4' key={index}>
                         <div className='flex justify-center items-center'>

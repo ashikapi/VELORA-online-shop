@@ -12,13 +12,13 @@ const HomeCategories = () => {
         <div>
             <div className='pb-10 text-center space-y-4'>
                 <h1 className='md:text-5xl text-3xl text-black font-bold'>Our Categories</h1>
-                <p className='text-xl'>Explore a wide range of styles, handpicked to suit every taste and need.</p>
+                <p className='text-xl p-4'>Explore a wide range of styles, handpicked to suit every taste and need.</p>
             </div>
             <div className='grid md:grid-cols-2 grid-cols-1 gap-5'>
                 {catagory.map((cata, index)=>(
-                    <div key={index}>
-                        <img className='border-2 border-gray-500 rounded-4xl mt-15' src={cata.logo} alt="" />
-                        <ul className='w-120 p-4 bg-white text-center space-y-2 pb-5 pt-5 rounded-3xl -mt-15 ml-15 absolute z-10'>
+                    <div key={index} className="flex-1 justify-center items-center">
+                        <img className='w-80 border-2 border-gray-500 rounded-4xl mt-15' src={cata.logo} alt="" />
+                        <ul className='md:w-120 w-52 p-4 bg-white text-center space-y-2 pb-5 pt-5 rounded-3xl -mt-15 ml-15 absolute z-10'>
                             <h1 className='text-2xl font-bold text-black'>{cata.name}</h1>
                             <p className='text-[rgb(239,35,60)]'>Shop Now</p>
                         </ul>

@@ -11,7 +11,7 @@ const products = [
                 <h1 className='text-5xl font-extrabold'>Bestsellers</h1>
                 <p className='text-[rgb(89,80,83)]'>From cult-favorite jackets to must-have dresses –<span><br /></span> These are our customer faves. </p>
             </div>
-        <div className='grid grid-cols-3 gap-6 -mt-6 mb-20 p-20'>{products.map((product, index) => (
+        <div className='grid md:grid-cols-3 grid-cols-1 gap-6 -mt-6 mb-20 p-20'>{products.map((product, index) => (
             <div  className=''>
             <ul key={index}>
                 <li><img src={product.image} alt="img" /></li>

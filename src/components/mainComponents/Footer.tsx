@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div>
         <div className="bg-[rgb(0,0,0)] text-white">
-            <div className="grid grid-cols-5 gap-20 p-20">
+            <div className="grid md:grid-cols-5 grid-cols-1 gap-20 p-20">
             <div className="flex flex-col gap-6">
                 <img className="w-[136px] h-[40px" src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/footer-logo.svg" alt="" />
                 <p>Classic looks for Men, Women & Kids.</p>
