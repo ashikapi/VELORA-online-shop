@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <div className="w-full h-auto fixed top-0 z-50 bg-white">
-        <div className="flex justify-evenly items-center p-4">
+        <div className="flex md:justify-evenly justify-between items-center p-4 md:px-0 px-6">
             <div>
                 <NavLink to={'/home'}><img src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/header-logo.svg" alt="" /> </NavLink>
             </div>

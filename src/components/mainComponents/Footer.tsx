@@ -7,10 +7,10 @@ import { NavLink } from "react-router";
 const Footer = () => {
   return (
     <div>
-        <div className="bg-[rgb(0,0,0)] text-white">
-            <div className="grid md:grid-cols-5 grid-cols-1 gap-20 p-20">
+        <div className="bg-[rgb(0,0,0)] text-white px-10 py-5 md:px-20 md:py-20">
+            <div className="grid md:grid-cols-5 grid-cols-1 md:gap-20 gap-10 mt-10 md:mb-10 mb-2">
             <div className="flex flex-col gap-6">
-                <img className="w-[136px] h-[40px" src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/footer-logo.svg" alt="" />
+                <img className="w-[136px] h-[40px]" src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/footer-logo.svg" alt="" />
                 <p>Classic looks for Men, Women & Kids.</p>
                 <ul className="flex gap-6 text-2xl mt-4">
                     <li><FaInstagram /></li>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <li><NavLink to={'/home'}>Home</NavLink> </li>
                     <li><NavLink to={'/shop'}>Shop</NavLink></li>
                     <li><NavLink to={'/about'}>About</NavLink></li>
-                    <li>Contact</li>
+                    <li><NavLink to={'/contact'}>Contact</NavLink></li>
                 </ul>
             </div>
             <div className="flex flex-col gap-6">
@@ -56,9 +56,9 @@ const Footer = () => {
                 </ul>
             </div>
             </div>
-            <div className="pb-20 px-10"><hr className="border-t border-gray-300 pb-6" />
-            <label className="flex justify-between items-center"><p>Copyright © 2025 Clothing Store All rights reserved</p>
-            <img className="w-[272px] h-[48px]" src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/payments.svg" alt="" /></label>
+            <div className=""><hr className="border-t border-gray-300 md:pb-6 pb-2" />
+            <label className="flex justify-between items-center md:text-base text-[8px]"><p>Copyright © 2025 Clothing Store All rights reserved</p>
+            <img className="md:w-[272px] md:h-[48px] w-28" src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/payments.svg" alt="" /></label>
             
             </div>
         </div>
