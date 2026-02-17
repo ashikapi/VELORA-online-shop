@@ -22,7 +22,7 @@ const Header = () => {
             <div>
                 <NavLink to={'/home'}><img src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/header-logo.svg" alt="" /> </NavLink>
             </div>
-            <div className="md:flex justify-center items-center lg:gap-x-10 md:gap-4 hidden text-lg font-semibold text-gray-600">
+            <div className="md:flex justify-center items-center lg:gap-x-10 md:gap-5 hidden lg:text-lg md:text-base font-semibold text-gray-600">
                 {navItems.map ((items, index) => (
                     <ul key={index}
                      className="">

@@ -1,6 +1,6 @@
 import { IoLogoInstagram } from "react-icons/io";
 
-const AboutFooter = ({ bgColor }) => {
+const AboutFooter = ({ bgColor }: { bgColor: string }) => {
     const pictures = [
         'https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/footer-img-01.jpg',
         'https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/footer-img-02.jpg',

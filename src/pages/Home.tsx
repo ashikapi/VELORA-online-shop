@@ -8,7 +8,7 @@ import HomeHero from '../components/homeComponents/HomeHero'
 
 const Home = () => {
   return (
-    <div className='w-full h-full'>
+    <>
       <HomeHero />
       <NewArivals />
       <HomeCategories />
@@ -16,7 +16,7 @@ const Home = () => {
       <HomeExclusive/>
       <AboutFooter bgColor="bg-white"></AboutFooter>
       <HomeFooter/>
-    </div>
+    </>
   )
 }
 
