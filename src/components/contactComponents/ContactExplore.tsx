@@ -11,19 +11,19 @@ const ContactExplore = () => {
     ];
 
   return (
-    <div className='flex justify-center items-center bg-[rgb(247,236,237)] pt-20 pb-20'>
+    <div className='flex justify-center items-center bg-[rgb(247,236,237)] w-full px-6 py-10 lg:px-20'>
         <div>
             <div className='text-center space-y-5 pb-10'>
-                <h1 className='text-5xl font-bold text-black'>Explore Our Support <br />Topics</h1>
-                <p>From returns and shipping to sizing and payments, we’ve got <br /> answers to all your most common questions.</p>
+                <h1 className='md:text-5xl text-3xl font-bold text-black'>Explore Our Support <br />Topics</h1>
+                <p className="md:text-base text-sm">From returns and shipping to sizing and payments, we’ve got <br /> answers to all your most common questions.</p>
             </div>
-            <div className='grid grid-cols-3 gap-10'>
+            <div className='grid md:grid-cols-3 grid-cols-2 lg:gap-10 md:gap-5 gap-3'>
                 {exploreDetails.map((details , index)=>(
-                    <div className='w-96 p-10 space-y-6 bg-white rounded-2xl' key={index}>
+                    <div className='md:w-full xl:w-96 md:px-6 px-2 py-6 lg:px-10 lg:py-10 md:pace-y-6 space-y-4 bg-white rounded-2xl' key={index}>
                         <div className=''>
-                        <h1 className='text-2xl font-bold text-black'>{details.title}</h1>
+                        <h1 className='lg:text-2xl md:text-xl text-sm font-bold text-black'>{details.title}</h1>
                         </div>
-                        <ul className='underline space-y-4'>
+                        <ul className='underline md:space-y-4 space-y-2 md:text-base text-xs'>
                             <li>{details.subTitle1}</li>
                             <li>{details.subTitle2}</li>
                             <li>{details.subTitle3}</li>
