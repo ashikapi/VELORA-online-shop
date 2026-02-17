@@ -7,7 +7,7 @@ import CareersReady from '../components/careersComponents/CareersReady'
 const Careers = () => {
   return (
     <div>
-        <CareersHome title  details  subDetails showSubtitle showDetails />
+        <CareersHome title='Careers at Velora'  details= 'At Velora, you’ll find purpose in your work, passion in your teammates, and growth in every step.'  subDetails='' showSubtitle = {false} showDetails = {false} />
         <CareersGrow />
         <CareersLife />
         <CareersPerks />

@@ -47,10 +47,10 @@ const FaqDetails = () => {
 },
     ];
 
-    const [visible, setVisible]=useState(null);
+    const [visible, setVisible]=useState<string | null>(null);
 
-    const handelClick=(index) => {
-        setVisible(visible === index ? null : index);
+    const handleClick=(index:string) => {
+        setVisible(prev => prev === index ? null : index);
 
     }
 
@@ -68,7 +68,7 @@ const FaqDetails = () => {
                                     <h1 className='text-black font-bold text-xl'>{nam.nam}</h1>
                                     {/* <p id='text' style={{}}>{nam.text}</p> */}
                                     <div className='flex justify-end items-end text-2xl w-200'>
-                                    <button onClick={() => handelClick(`${index}-${ind}`)}><span className="text-2xl">
+                                    <button onClick={() => handleClick(`${index}-${ind}`)}><span className="text-2xl">
                         {visible === `${index}-${ind}` ? <IoMdArrowDropdown /> : <IoMdArrowDropright />}
                       </span></button>
                       {visible === `${index}-${ind}` && (
