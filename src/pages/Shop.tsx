@@ -18,19 +18,21 @@ const Shop = () => {
 ];
 
   return (
-    <div className='-mt-10 pt-20'>
-        <div className='flex justify-between items-center p-20'>
+    <div className='w-full h-full xl:px-40 lg:px-20 md:px-16 px-5 py-10'>
+        <div className='flex justify-between items-center'>
             <div className='space-y-4'>
                 <h1 className='text-3xl font-extrabold'>Shop</h1>
             </div>
         </div>
-        <div className="w-350 text-gray-400 border-0.5 ml-20 -mt-10 mb-5 "><hr /></div>
-        <div className="flex justify-between items-center ml-20 mr-10">
+        <div className="w-full text-gray-400 border-0.5 py-4 "><hr /></div>
+        <div className="flex justify-between items-center mb-4">
             <p>Showing 1–9 of 12 results</p>
             <select className="w-50 p-2" name="" id="" defaultValue="option1">
-                <option value="option1">Sort by latest</option>
+                <option value="option1"
+                 className="text-end"
+                >Sort by latest</option>
                 </select></div>
-        <div className='grid grid-cols-3 grid-rows-3 gap-6 -mt-6 mb-20 p-20'>{products.map((product, index) => (
+        <div className='grid grid-cols-3 grid-rows-3 gap-6 mb-20'>{products.map((product, index) => (
             <div  className=''>
             <ul key={index}>
                 <li><img src={product.image} alt="img" /></li>

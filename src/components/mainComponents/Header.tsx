@@ -3,6 +3,7 @@ import { BsFillBasketFill } from "react-icons/bs";
 import { NavLink } from "react-router";
 import CartNumber from "./CartNumber";
 import { TiThMenu } from "react-icons/ti";
+import { useState } from "react";
 
 const Header = () => {
 
@@ -16,17 +17,21 @@ const Header = () => {
         {name: "Contact", path: "/contact"},
     ];
 
+    const [active, setActive] = useState('');
+
   return (
     <div className="w-full h-auto fixed top-0 z-50 bg-white">
         <div className="flex justify-evenly items-center p-4">
             <div>
                 <NavLink to={'/home'}><img src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/header-logo.svg" alt="" /> </NavLink>
             </div>
-            <div className="md:flex justify-center items-center lg:gap-x-10 md:gap-5 hidden lg:text-lg md:text-base font-semibold text-gray-600">
+            <div className="md:flex justify-center items-center lg:gap-x-10 md:gap-5 hidden lg:text-lg md:text-base font-semibold text-gray-500">
                 {navItems.map ((items, index) => (
                     <ul key={index}
                      className="">
                             <NavLink to={items.path}
+                            onClick={() => setActive(items.path)}
+                              className={`${active === items.path ? 'text-[rgb(239,35,60)]' : 'hover:text-[rgb(239,35,60)]'}`}
                              >{items.name}</NavLink>
                     </ul>
                 ))}
