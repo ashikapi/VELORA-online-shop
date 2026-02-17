@@ -56,7 +56,7 @@ const Footer = () => {
                 </ul>
             </div>
             </div>
-            <div className="pb-20 pl-20 pr-20"><hr className="border-t border-gray-300 pb-6" />
+            <div className="pb-20 px-10"><hr className="border-t border-gray-300 pb-6" />
             <label className="flex justify-between items-center"><p>Copyright © 2025 Clothing Store All rights reserved</p>
             <img className="w-[272px] h-[48px]" src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/payments.svg" alt="" /></label>
             
