@@ -6,7 +6,7 @@ export default function HomeHero() {
         <div className='py-20'>
         <h1 className='p-4 text-white md:text-5xl text-3xl font-extrabold'>Timeless Fashion for the <span><br /> Modern Wardrobe</span></h1>
         <p className='p-4 text-white md:text-lg text-base font-semibold'>Discover timeless fashion for Men, Women, and Kids – crafted for <span><br /></span> comfort, designed for confidence.</p>
-        <button className='px-4 py-2 bg-[rgb(239,35,60)] rounded-3xl text-white text-xl mt-20 uppercase'>Explore the Collection</button>
+        <button className='px-4 py-2 bg-[rgb(239,35,60)] rounded-3xl text-white md:text-xl mt-20 uppercase'>Explore the Collection</button>
         </div>
         </div>
   )
