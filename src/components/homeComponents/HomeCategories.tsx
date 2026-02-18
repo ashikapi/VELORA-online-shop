@@ -8,7 +8,7 @@ const HomeCategories = () => {
     ]
 
   return (
-    <div className='w-full h-full flex justify-center items-center bg-[rgb(247,236,237)] lg:px-20 md:px-10 py-20'>
+    <div className='w-full h-full flex justify-center items-center bg-[rgb(247,236,237)] lg:px-20 md:px-10 px-5 py-20'>
         <div>
             <div className='pb-10 text-center space-y-4'>
                 <h1 className='md:text-5xl text-3xl text-black font-bold'>Our Categories</h1>
