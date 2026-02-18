@@ -8,10 +8,10 @@ const products = [
   return (
             <div className='w-full h-full xl:px-40 lg:px-20 md:px-16 px-5 py-10'>
             <div className='space-y-4 text-center'>
-                <h1 className='text-5xl font-extrabold'>Bestsellers</h1>
+                <h1 className='md:text-5xl text-3xl font-extrabold'>Bestsellers</h1>
                 <p className='text-[rgb(89,80,83)]'>From cult-favorite jackets to must-have dresses –<span><br /></span> These are our customer faves. </p>
             </div>
-        <div className='grid md:grid-cols-3 grid-cols-2 gap-6 -mt-6 mb-20'>{products.map((product, index) => (
+        <div className='grid md:grid-cols-3 grid-cols-2 gap-6 mb-20'>{products.map((product, index) => (
             <div  className=''>
             <ul key={index}>
                 <li><img src={product.image} alt="img" /></li>
