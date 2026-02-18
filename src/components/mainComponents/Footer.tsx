@@ -7,8 +7,8 @@ import { NavLink } from "react-router";
 const Footer = () => {
   return (
     <div>
-        <div className="bg-[rgb(0,0,0)] text-white px-10 py-5 md:px-20 md:py-20">
-            <div className="grid md:grid-cols-5 grid-cols-1 md:gap-20 gap-10 mt-10 md:mb-10 mb-2">
+        <div className="bg-[rgb(0,0,0)] text-white px-5 py-5 md:px-20 md:py-20">
+            <div className="grid md:grid-cols-5 grid-cols-2 md:gap-20 gap-10 mt-10 md:mb-10 mb-2">
             <div className="flex flex-col gap-6">
                 <img className="w-[136px] h-[40px]" src="https://websitedemos.net/clothing-store-04/wp-content/uploads/sites/1538/2025/05/footer-logo.svg" alt="" />
                 <p>Classic looks for Men, Women & Kids.</p>
