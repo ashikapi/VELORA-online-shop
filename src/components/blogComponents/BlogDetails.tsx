@@ -12,7 +12,7 @@ const BlogDetails = () => {
   return (
     <div>
         <div className='flex justify-center items-center pt-20 pb-20'>
-            <div className='w-300 p-6 grid grid-cols-3 gap-10'>
+            <div className='w-300 p-6 grid lg:grid-cols-3 md:grid-cols-2 gap-10'>
                 {property.map((prop, index)=>(
                     <div className='shadow-sm shadow-gray-200 bg-white space-y-2 rounded-2xl' key={index}>
                         <img className='rounded-t-2xl' src={prop.logo} alt="" />
