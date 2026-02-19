@@ -9,7 +9,7 @@ const products = [
             <div className='w-full h-full xl:px-40 lg:px-20 md:px-16 px-5 py-10'>
             <div className='space-y-4 text-center'>
                 <h1 className='md:text-5xl text-3xl font-extrabold'>Bestsellers</h1>
-                <p className='text-[rgb(89,80,83)]'>From cult-favorite jackets to must-have dresses –<span><br /></span> These are our customer faves. </p>
+                <p className='text-[rgb(89,80,83)] mb-6'>From cult-favorite jackets to must-have dresses –<span><br /></span> These are our customer faves. </p>
             </div>
         <div className='grid md:grid-cols-3 grid-cols-2 gap-6 md:mb-20 mb-5 mt-5 md:mt-0'>{products.map((product, index) => (
             <div  className=''>
